@@ -22,17 +22,17 @@ public class Conta {
     public Double sacar(Double valor) {
         if(valor == null || valor <= 0)
             throw new IllegalArgumentException("Valor Inválido");
-        if(this.getSaldo()< valor)
+        if(this.getSaldo() < valor)
             throw new IllegalArgumentException("Saldo Insuficiente");
         saldo -= valor;
-        return 0.0;
+        return saldo;
     }
 
     public Double depositar(Double valor) {
         if (valor == null || valor <= 0)
             throw new IllegalArgumentException("Valor Inválido");
         saldo += valor;
-        return 0.0;
+        return saldo;
     }
 
     public void transferir(Conta destino, Double valor){

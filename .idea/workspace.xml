@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a95ef732-6e8d-4e86-8333-c3eb8fccc242" name="Changes" comment="feat: cria metodo equals e hashcode">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a95ef732-6e8d-4e86-8333-c3eb8fccc242" name="Changes" comment="feat: testa metodo sacar e transferir">
       <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/ui/Main.java" afterDir="false" />
     </list>
@@ -93,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677886563854</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: implementa metódo sacar e transferir">
+      <created>1677891906927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677891906927</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: testa metodo sacar e transferir">
+      <created>1677891948067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677891948067</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +124,8 @@
     <MESSAGE value="feat: cria estrutura incial" />
     <MESSAGE value="feat: cria o deposito da conta" />
     <MESSAGE value="feat: cria metodo equals e hashcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: cria metodo equals e hashcode" />
+    <MESSAGE value="feat: implementa metódo sacar e transferir" />
+    <MESSAGE value="feat: testa metodo sacar e transferir" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: testa metodo sacar e transferir" />
   </component>
 </project>
