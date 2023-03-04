@@ -20,14 +20,30 @@ public class Conta {
     }
 
     public Double sacar(Double valor) {
+        if(valor == null || valor <= 0)
+            throw new IllegalArgumentException("Valor Inválido");
+        if(this.getSaldo()< valor)
+            throw new IllegalArgumentException("Saldo Insuficiente");
+        saldo -= valor;
         return 0.0;
     }
 
     public Double depositar(Double valor) {
         if (valor == null || valor <= 0)
-            throw new IllegalArgumentException("Valor menor ou igual a zero");
+            throw new IllegalArgumentException("Valor Inválido");
         saldo += valor;
         return 0.0;
+    }
+
+    public void transferir(Conta destino, Double valor){
+        if(this.getSaldo() < valor)
+            throw new IllegalArgumentException("Saldo insuficiente");
+
+        if (this.equals(destino))
+            throw new IllegalArgumentException("Conta igual, impossível transferir");
+
+        this.sacar(valor);
+        destino.depositar(valor);
     }
 
     public Integer getNumero() {
