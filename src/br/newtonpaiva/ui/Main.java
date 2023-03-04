@@ -25,7 +25,7 @@ public class Main {
             System.out.println("Contas diferentes");
         }
 
-        c2.transferir(c, 100.0);
+        c2.transferir(c, 300.0);
 
         System.out.println(c.getSaldo());
     }
