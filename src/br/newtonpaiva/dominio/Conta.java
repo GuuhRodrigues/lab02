@@ -2,9 +2,9 @@ package br.newtonpaiva.dominio;
 
 import java.util.Objects;
 
-public class Conta {
+public class Conta implements Transferencia{
     private Integer numero;
-    private Double saldo;
+    protected Double saldo;
 
     public Conta(){
         this(null);
@@ -51,14 +51,17 @@ public class Conta {
     }
 
     public void setNumero(Integer numero) {
+
         this.numero = numero;
     }
 
     public Double getSaldo() {
+
         return saldo;
     }
 
     public void setSaldo(Double saldo) {
+
         this.saldo = saldo;
     }
 

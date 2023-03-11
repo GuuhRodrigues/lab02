@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a95ef732-6e8d-4e86-8333-c3eb8fccc242" name="Changes" comment="feat: testa metodo sacar e transferir">
+    <list default="true" id="a95ef732-6e8d-4e86-8333-c3eb8fccc242" name="Changes" comment="feat: testa o retorno alterado">
+      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Transferencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/ui/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -106,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677891948067</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: altera retorno metodos sacar e depositar">
+      <created>1677892150687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677892150687</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: testa o retorno alterado">
+      <created>1677892170108</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677892170108</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +142,8 @@
     <MESSAGE value="feat: cria metodo equals e hashcode" />
     <MESSAGE value="feat: implementa metódo sacar e transferir" />
     <MESSAGE value="feat: testa metodo sacar e transferir" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: testa metodo sacar e transferir" />
+    <MESSAGE value="feat: altera retorno metodos sacar e depositar" />
+    <MESSAGE value="feat: testa o retorno alterado" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: testa o retorno alterado" />
   </component>
 </project>
