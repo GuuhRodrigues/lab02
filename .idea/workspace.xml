@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a95ef732-6e8d-4e86-8333-c3eb8fccc242" name="Changes" comment="feat: testa o retorno alterado">
-      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Transferencia.java" afterDir="false" />
+    <list default="true" id="a95ef732-6e8d-4e86-8333-c3eb8fccc242" name="Changes" comment="feat: altera atributo saldo">
+      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/ContaPoupanca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -122,7 +121,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677892170108</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: cria conta especial e o metodo especifico dela">
+      <created>1678496427473</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678496427473</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: cria interface transferencia">
+      <created>1678496489643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678496489643</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: altera atributo saldo">
+      <created>1678496699810</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678496699810</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +164,9 @@
     <MESSAGE value="feat: testa metodo sacar e transferir" />
     <MESSAGE value="feat: altera retorno metodos sacar e depositar" />
     <MESSAGE value="feat: testa o retorno alterado" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: testa o retorno alterado" />
+    <MESSAGE value="feat: cria conta especial e o metodo especifico dela" />
+    <MESSAGE value="feat: cria interface transferencia" />
+    <MESSAGE value="feat: altera atributo saldo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: altera atributo saldo" />
   </component>
 </project>
