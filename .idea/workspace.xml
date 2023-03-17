@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a95ef732-6e8d-4e86-8333-c3eb8fccc242" name="Changes" comment="feat: altera atributo saldo">
-      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a95ef732-6e8d-4e86-8333-c3eb8fccc242" name="Changes" comment="feat: cria classe poupanca" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678496699810</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: cria classe poupanca">
+      <created>1679093373671</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679093373671</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +171,7 @@
     <MESSAGE value="feat: cria conta especial e o metodo especifico dela" />
     <MESSAGE value="feat: cria interface transferencia" />
     <MESSAGE value="feat: altera atributo saldo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: altera atributo saldo" />
+    <MESSAGE value="feat: cria classe poupanca" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: cria classe poupanca" />
   </component>
 </project>
