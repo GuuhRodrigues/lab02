@@ -6,7 +6,7 @@ import java.util.List;
 public abstract class Pessoa {
 
     private String nome;
-    private List conta = new LinkedList();
+    private List<Conta> contas = new LinkedList<>();
 
     public abstract void validarDocumento();
 
@@ -18,11 +18,11 @@ public abstract class Pessoa {
         this.nome = nome;
     }
 
-    public List getConta() {
-        return conta;
+    public List<Conta> getContas() {
+        return contas;
     }
 
-    public void setConta(List conta) {
-        this.conta = conta;
+    public void setContas(List<Conta> contas) {
+        this.contas = contas;
     }
 }

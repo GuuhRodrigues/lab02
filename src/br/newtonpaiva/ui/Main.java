@@ -36,8 +36,12 @@ public class Main {
         PessoaFisica gustavo = new PessoaFisica();
         gustavo.setNome("Gustavo");
 
+        gustavo.getContas().add(contaGustavo);
+        //gustavo.getContas().remove(contaGustavo);
         contaGustavo.setPessoa(gustavo);
 
+        for(Conta c1 : gustavo.getContas())
+            c1.depositar(100.0);
         contaGustavo.getPessoa().getNome();
     }
 }
