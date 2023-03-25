@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Conta implements Transferencia{
     private Integer numero;
     protected Double saldo;
+    private Pessoa pessoa;
 
     public Conta(){
         this(null);
@@ -63,6 +64,14 @@ public class Conta implements Transferencia{
     public void setSaldo(Double saldo) {
 
         this.saldo = saldo;
+    }
+
+    public Pessoa getPessoa() {
+        return pessoa;
+    }
+
+    public void setPessoa(Pessoa pessoa) {
+        this.pessoa = pessoa;
     }
 
     @Override

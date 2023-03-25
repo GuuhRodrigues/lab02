@@ -1,6 +1,6 @@
 package br.newtonpaiva.ui;
 
-import br.newtonpaiva.dominio.Conta;
+import br.newtonpaiva.dominio.*;
 
 public class Main {
 
@@ -28,5 +28,16 @@ public class Main {
         c2.transferir(c, 300.0);
 
         System.out.println(c.getSaldo());
+
+        ContaPoupanca contaGustavo = new ContaPoupanca();
+        contaGustavo.setNumero(123);
+        contaGustavo.setSaldo(5000.0);
+
+        PessoaFisica gustavo = new PessoaFisica();
+        gustavo.setNome("Gustavo");
+
+        contaGustavo.setPessoa(gustavo);
+
+        contaGustavo.getPessoa().getNome();
     }
 }

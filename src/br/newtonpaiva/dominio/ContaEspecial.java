@@ -10,13 +10,6 @@ public class ContaEspecial extends Conta {
         saldo -= valor;
         return saldo;
     }
-//    @Override
-//    public Double sacar(Double valor){
-//        if (valor > getSaldo() + limite)
-//            throw new IllegalArgumentException("Saldo ");
-//        setSaldo(getSaldo() - valor);
-//        return getSaldo();
-//    }
 
     public Double getLimite() {
         return limite;
